@@ -35,7 +35,7 @@ class _WelcomePageState extends State<WelcomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: HexColor("2A2AC0").withOpacity(controller.value),
+      backgroundColor: HexColor("BFBFEC").withOpacity(controller.value),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -47,7 +47,7 @@ class _WelcomePageState extends State<WelcomePage>
               height: 100,
               color: Colors.transparent,
               child: Image.asset(
-                "assets/logo5.png",
+                "assets/logo5.jpg",
                 height: 150,
                 width: 200,
               ),
@@ -56,7 +56,7 @@ class _WelcomePageState extends State<WelcomePage>
           TypewriterAnimatedTextKit(
             text: ["Welcome"],
             textStyle: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontSize: 42,
               fontWeight: FontWeight.bold,
             ),
@@ -67,7 +67,7 @@ class _WelcomePageState extends State<WelcomePage>
           const Text(
             "To MAVERICK (grocery app) This App is designed and developed to ease the interaction between buyer and seller , numerous features are included in maverick to suppert interaction between buyer and sellers So what are you waiting for Let's start.",
             style:
-                TextStyle(color: Colors.white, fontSize: 16, wordSpacing: 1.8),
+                TextStyle(color: Colors.black, fontSize: 16, wordSpacing: 1.8),
             textAlign: TextAlign.center,
             // softWrap: true,
           ),
@@ -89,7 +89,7 @@ class _WelcomePageState extends State<WelcomePage>
                   child: const Text(
                     "Let's start",
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 20,
                     ),
                   ),

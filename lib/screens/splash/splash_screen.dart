@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
         children: <Widget>[
           Container(
             decoration: BoxDecoration(
-              color: HexColor("#2A2AC0"),
+              color: HexColor("#BFBFEC"),
             ),
           ),
           Column(
@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           height: 150,
                           child: ColorFiltered(
                             child: Image.asset(
-                              "assets/logo5.png",
+                              "assets/logo5.jpg",
                               height: 100,
                               width: width,
                               scale: 0.01,
