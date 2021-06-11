@@ -1,6 +1,8 @@
-//import 'dart:async';
+import 'dart:async';
+import '../HomePage/homepage_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import '../../app/main_dependencies.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -12,6 +14,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    Timer(Duration(seconds: 6), () => HomePageScreen());
+    Timer(
+        Duration(seconds: 5),
+        () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => WelcomePage()),
+            ));
   }
 
   @override
@@ -23,7 +32,9 @@ class _SplashScreenState extends State<SplashScreen> {
         fit: StackFit.expand,
         children: <Widget>[
           Container(
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(
+              color: HexColor("#2A2AC0"),
+            ),
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
