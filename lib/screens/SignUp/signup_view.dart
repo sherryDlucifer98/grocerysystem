@@ -64,7 +64,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     // ),
                     Padding(
                       padding:
-                          EdgeInsets.symmetric(horizontal: 20, vertical: 50),
+                          EdgeInsets.symmetric(horizontal: 20, vertical: 45),
                       child: Card(
                         elevation: 20,
                         shadowColor: Colors.blue,
@@ -94,7 +94,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 child: InkWell(
                                   onTap: () => Navigator.pushNamed(context, ""),
                                   child: Container(
-                                    height: 0.075 * height,
+                                    height: 0.060 * height,
                                     width: 0.5 * width,
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(30.0),
@@ -112,7 +112,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   ),
                                 ),
                               ),
-                              SizedBox(height: 20),
+                              SizedBox(height: 17),
                               GestureDetector(
                                 onTap: () {},
                                 child: GestureDetector(
