@@ -23,7 +23,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: HexColor("#2A2AC0"),
+                  color: HexColor("#26262F"),
                 ),
               ),
               _buildColumn(),
@@ -51,7 +51,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
               width: width,
               height: 150,
               child: Image.asset(
-                "assets/logo5.png",
+                "assets/logo5.jpg",
                 height: 300,
                 width: width,
               ),
