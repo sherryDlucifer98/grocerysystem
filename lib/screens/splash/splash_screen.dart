@@ -30,9 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         fit: StackFit.expand,
         children: <Widget>[
           Container(
-            decoration: BoxDecoration(
-              color: HexColor("#2A2AC0"),
-            ),
+            decoration: BoxDecoration(),
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
