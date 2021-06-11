@@ -83,7 +83,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                     color: Colors.black.withOpacity(0.675),
                                     fontWeight: FontWeight.bold,
                                   )),
-                              SizedBox(height: 12),
+                              SizedBox(height: 8),
                               _buildTextField("Email"),
                               _buildTextField("Password"),
                               _buildTextField("Username"),
