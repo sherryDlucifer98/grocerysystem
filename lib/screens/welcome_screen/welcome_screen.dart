@@ -54,7 +54,7 @@ class _WelcomePageState extends State<WelcomePage>
             ),
           ),
           TypewriterAnimatedTextKit(
-            text: ["Welcome"],
+            text: ["𝓜𝓐𝓥𝓔𝓡𝓘𝓒𝓚"],
             textStyle: TextStyle(
               color: Colors.black,
               fontSize: 42,
@@ -65,7 +65,7 @@ class _WelcomePageState extends State<WelcomePage>
             height: 40,
           ),
           const Text(
-            "To MAVERICK (grocery app) This App is designed and developed to ease the interaction between buyer and seller , numerous features are included in maverick to suppert interaction between buyer and sellers So what are you waiting for Let's start.",
+            "MAVERICK (grocery app) This App is designed and developed to ease the interaction between buyer and seller , numerous features are included in maverick to suppert interaction between buyer and sellers So what are you waiting for Let's start.",
             style:
                 TextStyle(color: Colors.black, fontSize: 16, wordSpacing: 1.8),
             textAlign: TextAlign.center,

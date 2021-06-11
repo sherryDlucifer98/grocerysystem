@@ -10,7 +10,8 @@ Route<dynamic> createRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (context) => WelcomePage());
     case "/homepage_screen":
       return MaterialPageRoute(builder: (context) => HomePageScreen());
-    case "/signup_view":
+    case "/login_view":
+      return MaterialPageRoute(builder: (context) => LoginScreen());
   }
   return null;
 }
