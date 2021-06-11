@@ -25,7 +25,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    //Theme for custome desgin, not overriding the main theme because i want diffirent theme here
     return Theme(
       data: ThemeData(primaryColor: _color),
       child: LayoutBuilder(
@@ -34,7 +33,8 @@ class _LoginScreenState extends State<LoginScreen> {
           width = constraints.maxWidth;
           return Scaffold(
             body: Container(
-              height: 400,
+              height: height,
+              width: width,
               decoration: BoxDecoration(
                 color: HexColor("#a2ad4c"),
               ),
