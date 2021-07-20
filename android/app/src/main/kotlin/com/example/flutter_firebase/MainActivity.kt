@@ -1,4 +1,4 @@
-package com.example.grocerysystem
+package com.example.flutter_firebase
 
 import io.flutter.embedding.android.FlutterActivity
 
