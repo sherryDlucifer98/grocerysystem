@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         builder: (context, auth, child) => MaterialApp(
           debugShowCheckedModeBanner: false,
           // home: auth.isAuth ? HomePage() : LoginPage(), this is to login to the buyer part to do the buyer features
-          home: auth.isAuth ? ViewProducts() : LoginPage(),
+          home: auth.isAuth ? ViewProducts() : LoginPage(), //splash()
           routes: {
             AddProductPage.route: (ctx) => AddProductPage(),
             ViewProducts.route: (ctx) => ViewProducts(),
