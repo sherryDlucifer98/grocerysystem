@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(grocerysystem LANGUAGES CXX)
+project(flutter_firebase LANGUAGES CXX)
 
-set(BINARY_NAME "grocerysystem")
+set(BINARY_NAME "flutter_firebase")
 
 cmake_policy(SET CMP0063 NEW)
 
